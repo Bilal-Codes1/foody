@@ -3,7 +3,6 @@ import Onion from "@/public/onion.png";
 import Tomato from "@/public/tomato.png";
 import Chilli from "@/public/chilli.png";
 import Image from "next/image";
-import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
