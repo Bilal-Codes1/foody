@@ -10,7 +10,7 @@ const ReviewCard = ({
   reviewText: string;
 }) => {
   return (
-    <div className="bg-[#232323] p-6 rounded-xl shadow-lg transition-transform transform h-40 hover:scale-105">
+    <div className="bg-[#232323] p-6 rounded-xl shadow-lg transition-transform transform h-fit md:h-40 hover:scale-105">
       <div className="flex justify-between items-center text-secondary gap-8 mb-4">
         <span className="font-medium">@{username}</span>
         <span className="text-sm text-gray-400">{date}</span>
@@ -30,7 +30,7 @@ const ReviewCard = ({
 const Reviews = () => {
   const reviews = [
     {
-      username: "sophiabennett",
+      username: "@sophia",
       date: "11 November 2024",
       reviewText:
         "Foody was fantastic! Great atmosphere, and the food was absolutely delicious. One of the best dining experiences I’ve had. Highly recommend!",
