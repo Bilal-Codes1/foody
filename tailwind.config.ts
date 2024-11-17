@@ -16,7 +16,7 @@ export default {
       screens: {
         laptop: "920px", // Custom breakpoint at 920px
         xl: "1440px", // Additional breakpoint for very large screens
-        "2xl": "1536px",
+        doublexl: "1536px",
       },
     },
   },

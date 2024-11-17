@@ -50,8 +50,8 @@ const Reviews = () => {
   ];
 
   return (
-    <div className="px-8 sm:px-16 py-12 reviews">
-      <h1 className="text-[24px] sm:text-[32px] font-semibold text-white">
+    <div className="px-8 sm:px-16 py-12 xl:px-40 reviews">
+      <h1 className="text-[24px] sm:text-[32px] xl:text-[40px] font-semibold text-white">
         Reviews
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-6">

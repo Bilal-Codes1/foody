@@ -13,7 +13,7 @@ const DishCard = ({
   description: string;
 }) => {
   return (
-    <div className="bg-[#232323] menu my-6 relative flex flex-col items-center rounded-lg w-full sm:w-60 h-56 shadow-md px-4 py-6 mb-6 transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-[#2a2a2a]">
+    <div className="bg-[#232323] menu my-6 relative flex flex-col items-center rounded-lg w-full xl:w-72 sm:w-60 h-56 shadow-md px-4 py-6 mb-6 transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-[#2a2a2a]">
       {/* Dish Image */}
       <img
         src={img}
@@ -177,8 +177,8 @@ const Menu = () => {
   const tabs = ["Hot Dish", "Cold Dish", "Grill"];
 
   return (
-    <div className="px-4 sm:px-16 py-12">
-      <h1 className="text-[32px] font-semibold text-center sm:text-left">
+    <div className="px-4 sm:px-16 py-12 xl:px-40">
+      <h1 className="text-[32px] xl:text-[40px] font-semibold text-center sm:text-left">
         Our Menu
       </h1>
       <div className="flex items-center gap-4 my-4 justify-center sm:justify-start">

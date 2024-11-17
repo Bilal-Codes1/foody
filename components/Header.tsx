@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <div className="flex justify-between items-center py-4 px-4 sm:px-16 w-full text-white">
+    <div className="flex xl:px-40 justify-between items-center py-4 px-4 sm:px-16 w-full text-white">
       {/* Logo */}
       <Link
         to="home" // Target the section with id="home"
