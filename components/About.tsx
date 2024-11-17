@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const About = () => {
   return (
     <div className="flex aboutus flex-col sm:flex-row items-center gap-8 sm:gap-16 justify-between p-8 sm:p-16">
